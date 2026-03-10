@@ -1,5 +1,8 @@
 public class Main {
+    public static String greeting(String name) {
+        return "Hello, " + name + "!";
+    }
     public static void main(String[] args) {
-        System.out.println("Welcome to prog-poe!");
+        System.out.println(greeting("Sphe"));
     }
 }
