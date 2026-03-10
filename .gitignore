@@ -1,0 +1,21 @@
+# Maven build output
+target/
+
+# IDE project files (keep portable)
+.idea/
+*.iml
+.vscode/
+
+# OS artifacts
+.DS_Store
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Java crash logs
+hs_err_pid*
+
+# Build logs
+*.log
